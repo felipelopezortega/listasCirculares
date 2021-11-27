@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas circulares</title>
+</head>
+<body>
+    <h1>Control de Inventario (Listas Circulares)</h1>
+    <div id="main">
+        <form>
+            <label for="txtName">Nombre de la base
+                <input type="text"; id="txtNombre">
+            </label><br><br>
+            <label for="txtQuantity">Cantidad de minutos
+                <input type="number"; id="txtCantidad">
+            </label><br><br>
+            <button type="button" id="btnAdd">Agregar</button>
+            <button type="button" id="btnDelete">Eliminar</button>
+            <button type="button" id="btnList">Listar</button>
+
+
+            <h3>Crear tarjeta</h3>
+            <label for="txtName">Base de inicio
+                <input type="text"; id="txtBaseInicio">
+            </label><br><br>
+            <label for="txtHora">Hora de inicio
+                <input type="number"; id="txtHora">
+            </label><br><br>
+            <label for="txtQuantity">Duración del viaje (en minutos)
+                <input type="number"; id="txtDuracion">
+            </label><br><br>
+            <button type="button" id="btnCrearTarjeta">Crear Tarjeta</button>
+           
+        </form>
+    </div>
+    <div id="infoDeBases"></div>
+
+    <script type="module" src="main.js"></script>
+
+</body>
+</html>
